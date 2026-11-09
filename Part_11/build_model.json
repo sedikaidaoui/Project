@@ -1,0 +1,208 @@
+{
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 21,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+    "cmakeServerLogFile": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cxx\\debug\\armeabi-v7a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+      "cmakeToolchain": "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a\\prefab"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "C:\\AndroidSdk\\ndk\\30.0.16248370"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-21"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "C:\\AndroidSdk\\ndk\\30.0.16248370"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "21"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a",
+  "variant": {
+    "buildSystemArgumentList": [],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": true,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates",
+      "makeFile": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\CMakeLists.txt",
+      "moduleBuildFile": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build.gradle",
+      "moduleRootFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app",
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkFolder": "C:\\AndroidSdk\\ndk\\30.0.16248370",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 21,
+        "max": 37,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33,
+          "UpsideDownCake": 34,
+          "VanillaIceCream": 35
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkVersion": "30.0.16248370",
+      "project": {
+        "compilerSettingsCacheFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\.cxx",
+        "cxxFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL",
+        "sdkFolder": "C:\\AndroidSdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "variantName": "debug",
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "prefabDirectory": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\prefab",
+    "prefabPackageDirectoryList": [
+      "C:\\Users\\NOT USER\\.gradle\\caches\\transforms-2\\files-2.1\\9759cfef6b4e2bec7718afca096a3b12\\jetified-shadowhook-1.1.1\\prefab"
+    ]
+  },
+  "prefabFolder": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\prefab\\armeabi-v7a"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_draw.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_widgets.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_tables.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_freetype.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_edited.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\backends\imgui_impl_dx11.cpp" Visible="false" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\backends\imgui_impl_win32.cpp" Visible="false" />
+  </ItemGroup>
+</Project>

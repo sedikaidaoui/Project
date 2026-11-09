@@ -1,0 +1,7 @@
+#include "resource.h"
+
+// --- Libs du projet APK UPDATEDOB55 (BLACK CORPS) embarques dans la DLL ---
+// libTERMINALX999.so : payload injecte dans com.dts.freefireth (armeabi-v7a)
+// libinjectEmulator.so : injecteur (ptrace/memfd dlopen, armeabi-v7a)
+IDR_LIB_TERMINALX999 RCDATA "libs\\libTERMINALX999.so"
+IDR_LIB_INJECTEMU    RCDATA "libs\\libinjectEmulator.so"

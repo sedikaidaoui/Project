@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\abis.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\platforms.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\compiler_id.cmake",
+    "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "TERMINALX_MENU-Debug-armeabi-v7a": {
+      "artifactName": "TERMINALX_MENU",
+      "buildCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" TERMINALX_MENU",
+      "abi": "armeabi-v7a",
+      "output": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libTERMINALX_MENU.so",
+      "runtimeFiles": []
+    },
+    "TERMINALX999-Debug-armeabi-v7a": {
+      "artifactName": "TERMINALX999",
+      "buildCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" TERMINALX999",
+      "abi": "armeabi-v7a",
+      "output": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libTERMINALX999.so",
+      "runtimeFiles": [
+        "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Dobby\\libdobby.a",
+        "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\Deps\\Keystone\\libs-android\\armeabi-v7a\\libkeystone.a"
+      ]
+    }
+  }
+}

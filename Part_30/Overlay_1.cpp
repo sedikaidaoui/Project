@@ -1,0 +1,318 @@
+#include "Overlay.hpp"
+#include <string>
+#include <dwmapi.h>
+#include <imgui_impl_win32.h>
+#include <imgui_impl_dx11.h>
+#include <iostream>
+#include <algorithm>
+#include <src/Globals.hpp>
+
+extern HMODULE g_hModule;
+
+std::wstring RandomString(size_t Length) {
+	auto Randchar = []() -> char {
+		const char* Charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+		const size_t MaxIndex = (sizeof(Charset) - 1);
+		return Charset[rand() % MaxIndex];
+		};
+
+	std::wstring Str(Length, 0);
+	std::generate_n(Str.begin(), Length, Randchar);
+	return Str;
+}
+
+struct WndRECT : public RECT {
+	int Width() { return right - left; }
+	int Height() { return bottom - top; }
+};
+
+static inline std::function<void(HWND, UINT, WPARAM, LPARAM)> pWindowProc;
+
+bool bSettuped = false;
+bool bInitialized = false;
+bool bDeviceInitialized = false;
+bool bRenderTargetInitialized = false;
+
+HWND hWindow = nullptr;
+WNDCLASSEX WindowClass;
+HWND hTargetWindow = nullptr;
+WndRECT wTargetWindowRect;
+
+ID3D11Device* ID3dDevice;
+ID3D11DeviceContext* ID3dDeviceContext;
+IDXGISwapChain* ID3dSwapChain;
+ID3D11RenderTargetView* ID3dRenderTargetView;
+
+void CreateDeviceD3D() {
+
+	DXGI_SWAP_CHAIN_DESC SwapChainDesc;
+	ZeroMemory(&SwapChainDesc, sizeof(SwapChainDesc));
+	SwapChainDesc.BufferDesc.Width = 0;
+	SwapChainDesc.BufferDesc.Height = 0;
+	SwapChainDesc.BufferDesc.RefreshRate.Numerator = 60;
+	SwapChainDesc.BufferDesc.RefreshRate.Denominator = 1;
+	SwapChainDesc.BufferDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
+	SwapChainDesc.SampleDesc.Count = 1;
+	SwapChainDesc.SampleDesc.Quality = 0;
+	SwapChainDesc.BufferUsage = DXGI_USAGE_RENDER_TARGET_OUTPUT;
+	SwapChainDesc.BufferCount = 2;
+	SwapChainDesc.OutputWindow = hWindow;
+	SwapChainDesc.Windowed = TRUE;
+	SwapChainDesc.SwapEffect = DXGI_SWAP_EFFECT_DISCARD;
+	SwapChainDesc.Flags = DXGI_SWAP_CHAIN_FLAG_ALLOW_MODE_SWITCH;
+
+	D3D_FEATURE_LEVEL FeatureLevel;
+	const D3D_FEATURE_LEVEL FeatureLevelArray[2] = { D3D_FEATURE_LEVEL_11_0, D3D_FEATURE_LEVEL_10_0 };
+
+	HRESULT hr = D3D11CreateDeviceAndSwapChain(nullptr, D3D_DRIVER_TYPE_HARDWARE, nullptr, 0, FeatureLevelArray, 2, D3D11_SDK_VERSION, &SwapChainDesc, &ID3dSwapChain, &ID3dDevice, &FeatureLevel, &ID3dDeviceContext);
+	if (FAILED(hr)) {
+#ifdef _DEBUG
+		std::cerr << "FWork::Window::InitializeDirectX11::D3D11CreateDeviceAndSwapChain Error: " << hr << std::endl;
+#endif // _DEBUG
+		return;
+	}
+
+	bDeviceInitialized = true;
+}
+
+LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
+	if (pWindowProc)
+		pWindowProc(hWnd, uMsg, wParam, lParam);
+
+	return DefWindowProc(hWnd, uMsg, wParam, lParam);
+}
+
+namespace FWork {
+	void Overlay::Setup(HWND TargetHWND) {
+		if (!TargetHWND) {
+			// Fallback: Cover the entire screen if target game is not active/found yet
+			wTargetWindowRect.left = 0;
+			wTargetWindowRect.top = 0;
+			wTargetWindowRect.right = GetSystemMetrics(SM_CXSCREEN);
+			wTargetWindowRect.bottom = GetSystemMetrics(SM_CYSCREEN);
+			hTargetWindow = nullptr;
+			bSettuped = true;
+			return;
+		}
+
+		hTargetWindow = TargetHWND;
+		WndRECT newRect{};
+		if (GetClientRect(hTargetWindow, &newRect)) {
+			MapWindowPoints(hTargetWindow, nullptr, reinterpret_cast<LPPOINT>(&newRect), 2);
+			wTargetWindowRect = newRect;
+			bSettuped = true;
+			// FIX: If overlay already created as fullscreen, move it immediately to emulator rect.
+			// Without this, UpdateWindowPos() skips MoveWindow because rect already == newRect.
+			if (bInitialized && hWindow) {
+				MoveWindow(hWindow, wTargetWindowRect.left, wTargetWindowRect.top, wTargetWindowRect.Width(), wTargetWindowRect.Height(), TRUE);
+				g_Globals.EspConfig.Width = wTargetWindowRect.Width();
+				g_Globals.EspConfig.Height = wTargetWindowRect.Height();
+			}
+		}
+		else {
+#ifdef _DEBUG
+			std::cerr << "FWork::Window::Setup - Failed to get target window rect" << std::endl;
+#endif // _DEBUG
+			bSettuped = false;
+		}
+	}
+
+	static std::wstring g_ClassName;
+
+void Overlay::Initialize() {
+	if (!bSettuped) {
+#ifdef _DEBUG
+		std::cerr << "FWork::Window::Initialize - Overlay not setup" << std::endl;
+#endif // _DEBUG
+		return;
+	}
+
+	if (bInitialized) return;
+
+	g_ClassName = RandomString(10);
+	WindowClass.lpszClassName = g_ClassName.c_str();
+
+	WindowClass.cbSize = sizeof(WindowClass);
+	WindowClass.style = CS_HREDRAW | CS_VREDRAW;
+	WindowClass.lpfnWndProc = WindowProc;
+	WindowClass.cbClsExtra = 0;
+	WindowClass.cbWndExtra = 0;
+	WindowClass.hInstance = g_hModule;
+	WindowClass.hIcon = NULL;
+	WindowClass.hCursor = LoadCursor(NULL, IDC_ARROW);
+	WindowClass.hbrBackground = NULL; // Prevent background repainting flicker
+	WindowClass.lpszMenuName = NULL;
+	WindowClass.hIconSm = NULL;
+
+	if (!RegisterClassEx(&WindowClass)) {
+#ifdef _DEBUG
+		std::cerr << "FWork::Window::Initialize::RegisterClassEx Error: " << GetLastError() << std::endl;
+#endif // _DEBUG
+		return;
+	}
+
+	hWindow = CreateWindowEx(
+		WS_EX_TOPMOST | WS_EX_TOOLWINDOW | WS_EX_TRANSPARENT | WS_EX_NOACTIVATE | WS_EX_LAYERED,
+		WindowClass.lpszClassName,
+		L"Overlay",
+		WS_POPUP | WS_VISIBLE,
+		wTargetWindowRect.left,
+		wTargetWindowRect.top,
+		wTargetWindowRect.Width(),
+		wTargetWindowRect.Height(),
+		nullptr,
+		nullptr,
+		WindowClass.hInstance,
+		nullptr
+	);
+
+		if (!hWindow) {
+#ifdef _DEBUG
+			std::cerr << "FWork::Window::Initialize::CreateWindowEx Error: " << GetLastError() << std::endl;
+#endif // _DEBUG
+			return;
+		}
+
+		SetLayeredWindowAttributes(hWindow, RGB(0, 0, 0), 255, LWA_ALPHA);
+
+		MARGINS Margins = { wTargetWindowRect.left, wTargetWindowRect.top, wTargetWindowRect.Width(), wTargetWindowRect.Height() };
+		DwmExtendFrameIntoClientArea(hWindow, &Margins);
+
+		ShowWindow(hWindow, SW_SHOW);
+		UpdateWindow(hWindow);
+
+		bInitialized = true;
+
+		dxInitialize();
+
+		if (!bDeviceInitialized || !bRenderTargetInitialized) {
+			ShutDown();
+		}
+	}
+
+	void Overlay::ShutDown() {
+		dxShutDown();
+
+		if (hWindow) {
+			DestroyWindow(hWindow);
+			hWindow = nullptr;
+		}
+
+		if (WindowClass.lpszClassName) {
+			UnregisterClass(WindowClass.lpszClassName, WindowClass.hInstance);
+			WindowClass.lpszClassName = nullptr;
+		}
+
+		// Reset class descriptor to zero so we don't have duplicate registration issues on next inject
+		ZeroMemory(&WindowClass, sizeof(WindowClass));
+
+		bInitialized = false;
+		bSettuped = false;
+		bDeviceInitialized = false;
+		bRenderTargetInitialized = false;
+	}
+
+	void Overlay::UpdateWindowPos() {
+		if (!hTargetWindow || !IsWindow(hTargetWindow)) {
+			// If no target window, keep the current position or stay at default
+			g_Globals.EspConfig.Width = wTargetWindowRect.Width();
+			g_Globals.EspConfig.Height = wTargetWindowRect.Height();
+			return;
+		}
+
+		WndRECT TargetWindowRect;
+		if (GetClientRect(hTargetWindow, &TargetWindowRect)) {
+			MapWindowPoints(hTargetWindow, nullptr, reinterpret_cast<LPPOINT>(&TargetWindowRect), 2);
+
+			// Only call MoveWindow if position/size actually changed — saves CPU
+			if (TargetWindowRect.left != wTargetWindowRect.left ||
+				TargetWindowRect.top != wTargetWindowRect.top ||
+				TargetWindowRect.right != wTargetWindowRect.right ||
+				TargetWindowRect.bottom != wTargetWindowRect.bottom) {
+				MoveWindow(hWindow, TargetWindowRect.left, TargetWindowRect.top, TargetWindowRect.Width(), TargetWindowRect.Height(), false);
+			}
+
+			wTargetWindowRect = TargetWindowRect;
+			g_Globals.EspConfig.Width = TargetWindowRect.Width();
+			g_Globals.EspConfig.Height = TargetWindowRect.Height();
+		}
+	}
+
+	void Overlay::SetupWindowProcHook(std::function<void(HWND, UINT, WPARAM, LPARAM)> Funtion) {
+		pWindowProc = Funtion;
+	}
+
+	void Overlay::dxInitialize() {
+		CreateDeviceD3D();
+		if (bDeviceInitialized) {
+			dxCreateRenderTarget();
+		}
+	}
+
+	void Overlay::dxRefresh() {
+		if (!ID3dDeviceContext || !ID3dRenderTargetView) return;
+
+		ID3dDeviceContext->OMSetRenderTargets(1, &ID3dRenderTargetView, nullptr);
+		static float TransparentColor[4] = { 0, 0, 0, 0 };
+		ID3dDeviceContext->ClearRenderTargetView(ID3dRenderTargetView, TransparentColor);
+	}
+
+	void Overlay::dxShutDown() {
+		dxCleanupRenderTarget();
+		dxCleanupDeviceD3D();
+	}
+
+	void Overlay::dxCreateRenderTarget()
+	{
+		if (!ID3dSwapChain || !ID3dDevice) return;
+
+		ID3D11Texture2D* pBackBuffer = nullptr;
+		HRESULT hr = ID3dSwapChain->GetBuffer(0, IID_PPV_ARGS(&pBackBuffer));
+		if (SUCCEEDED(hr) && pBackBuffer) {
+			hr = ID3dDevice->CreateRenderTargetView(pBackBuffer, NULL, &ID3dRenderTargetView);
+			pBackBuffer->Release();
+			if (SUCCEEDED(hr)) {
+				bRenderTargetInitialized = true;
+			}
+		}
+	}
+
+	void Overlay::dxCleanupRenderTarget()
+	{
+		if (ID3dRenderTargetView) {
+			ID3dRenderTargetView->Release();
+			ID3dRenderTargetView = nullptr;
+		}
+		bRenderTargetInitialized = false;
+	}
+
+	void Overlay::dxCleanupDeviceD3D()
+	{
+		if (ID3dSwapChain) {
+			ID3dSwapChain->Release();
+			ID3dSwapChain = nullptr;
+		}
+
+		if (ID3dDeviceContext) {
+			ID3dDeviceContext->Release();
+			ID3dDeviceContext = nullptr;
+		}
+
+		if (ID3dDevice) {
+			ID3dDevice->Release();
+			ID3dDevice = nullptr;
+		}
+
+		bDeviceInitialized = false;
+	}
+
+	bool Overlay::IsSettuped() { return bSettuped; }
+	bool Overlay::IsInitialized() { return bInitialized; }
+	HWND Overlay::GetOverlayWindow() { return hWindow; }
+	HWND Overlay::GetTargetWindow() { return hTargetWindow; }
+
+	ID3D11Device* Overlay::dxGetDevice() { return ID3dDevice; }
+	ID3D11DeviceContext* Overlay::dxGetDeviceContext() { return ID3dDeviceContext; }
+	IDXGISwapChain* Overlay::dxGetSwapChain() { return ID3dSwapChain; }
+	ID3D11RenderTargetView* Overlay::dxGetRenderTarget() { return ID3dRenderTargetView; }
+}

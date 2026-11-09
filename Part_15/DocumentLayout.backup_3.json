@@ -1,0 +1,605 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\aitelewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\aitelewall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcspinbotv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcspinbotv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcmarkteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcmarkteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\formah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\formah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\aotforms\\formah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\formah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\downplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\downplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcmagnetpull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcmagnetpull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcspinbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcspinbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\internalmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\internalmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcenemypullv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcenemypullv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcundergroundkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcundergroundkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kc no gravity fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kc no gravity fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcforceaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcforceaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcenemypull 360.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcenemypull 360.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcclimbup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcclimbup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcspawnkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcspawnkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\telekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\telekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcshakekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcshakekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcupplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcupplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcsafesilnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcsafesilnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\aimbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\aimbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\kcbrutalsilnetaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\kcbrutalsilnetaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\aimbotvisible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\aimbotvisible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\bones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\bones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\keyauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\keyauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\lucide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\lucide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|e:\\new ui making obb 51\\new brutal sinet aim kanishk v2\\kc-  elite\\pixel c# imgui\\aotforms\\formah.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\pixel.csproj|solutionrelative:aotforms\\formah.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AiTeleWall.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\AiTeleWall.cs",
+              "RelativeDocumentMoniker": "AotForms\\AiTeleWall.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\AiTeleWall.cs*",
+              "RelativeToolTip": "AotForms\\AiTeleWall.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:51:01.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KCSPINBOTV2.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCSPINBOTV2.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCSPINBOTV2.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCSPINBOTV2.cs",
+              "RelativeToolTip": "AotForms\\KCSPINBOTV2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:11:44.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InternalMemory.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\InternalMemory.cs",
+              "RelativeDocumentMoniker": "AotForms\\InternalMemory.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\InternalMemory.cs",
+              "RelativeToolTip": "AotForms\\InternalMemory.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAApwFoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T05:57:26.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "kcMarkTeleport.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\kcMarkTeleport.cs",
+              "RelativeDocumentMoniker": "AotForms\\kcMarkTeleport.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\kcMarkTeleport.cs",
+              "RelativeToolTip": "AotForms\\kcMarkTeleport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T05:56:28.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KcSpinBot.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcSpinBot.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcSpinBot.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcSpinBot.cs",
+              "RelativeToolTip": "AotForms\\KcSpinBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:50:27.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Core.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Core.cs",
+              "RelativeDocumentMoniker": "AotForms\\Core.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Core.cs",
+              "RelativeToolTip": "AotForms\\Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:45:35.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KCMAGNETPULL.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCMAGNETPULL.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCMAGNETPULL.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCMAGNETPULL.cs",
+              "RelativeToolTip": "AotForms\\KCMAGNETPULL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:43:34.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Entity.cs",
+              "RelativeDocumentMoniker": "AotForms\\Entity.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Entity.cs",
+              "RelativeToolTip": "AotForms\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:12:51.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KcTeleport.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcTeleport.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcTeleport.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcTeleport.cs",
+              "RelativeToolTip": "AotForms\\KcTeleport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:06:00.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ESP.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\ESP.cs",
+              "RelativeDocumentMoniker": "AotForms\\ESP.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\ESP.cs*",
+              "RelativeToolTip": "AotForms\\ESP.cs*",
+              "ViewState": "AgIAAJEGAAAAAAAAAAAqwB8HAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T04:57:25.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Config.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Config.cs",
+              "RelativeDocumentMoniker": "AotForms\\Config.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Config.cs*",
+              "RelativeToolTip": "AotForms\\Config.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:41:04.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormAh.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.cs",
+              "RelativeDocumentMoniker": "AotForms\\FormAh.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.cs*",
+              "RelativeToolTip": "AotForms\\FormAh.cs*",
+              "ViewState": "AgIAAG8AAAAAAAAAAIAwwD8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T04:55:23.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Data.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Data.cs",
+              "RelativeDocumentMoniker": "AotForms\\Data.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Data.cs",
+              "RelativeToolTip": "AotForms\\Data.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAqwMUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:05:50.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KcUnderGroundKill.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcUnderGroundKill.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcUnderGroundKill.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcUnderGroundKill.cs",
+              "RelativeToolTip": "AotForms\\KcUnderGroundKill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:42:34.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormAh.cs [Design]",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.cs",
+              "RelativeDocumentMoniker": "AotForms\\FormAh.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.cs [Design]*",
+              "RelativeToolTip": "AotForms\\FormAh.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T04:53:57.975Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DownPlayer.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\DownPlayer.cs",
+              "RelativeDocumentMoniker": "AotForms\\DownPlayer.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\DownPlayer.cs",
+              "RelativeToolTip": "AotForms\\DownPlayer.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAIAwwBcBAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:58:33.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KcEnemyPull 360.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcEnemyPull 360.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcEnemyPull 360.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcEnemyPull 360.cs",
+              "RelativeToolTip": "AotForms\\KcEnemyPull 360.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:05:30.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KcEnemyPullV2.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcEnemyPullV2.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcEnemyPullV2.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcEnemyPullV2.cs",
+              "RelativeToolTip": "AotForms\\KcEnemyPullV2.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAmwC4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:23:38.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "KcForceAim.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcForceAim.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcForceAim.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcForceAim.cs",
+              "RelativeToolTip": "AotForms\\KcForceAim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:25:23.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KC NO GRAVITY FLY.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KC NO GRAVITY FLY.cs",
+              "RelativeDocumentMoniker": "AotForms\\KC NO GRAVITY FLY.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KC NO GRAVITY FLY.cs",
+              "RelativeToolTip": "AotForms\\KC NO GRAVITY FLY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T16:44:52.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "KCClimbUp.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCClimbUp.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCClimbUp.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCClimbUp.cs",
+              "RelativeToolTip": "AotForms\\KCClimbUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:10:18.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KCSpawnkill.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCSpawnkill.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCSpawnkill.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KCSpawnkill.cs",
+              "RelativeToolTip": "AotForms\\KCSpawnkill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:08:11.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Offsets.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Offsets.cs",
+              "RelativeDocumentMoniker": "AotForms\\Offsets.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Offsets.cs",
+              "RelativeToolTip": "AotForms\\Offsets.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAMwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:01:20.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Telekill.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Telekill.cs",
+              "RelativeDocumentMoniker": "AotForms\\Telekill.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Telekill.cs",
+              "RelativeToolTip": "AotForms\\Telekill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:53:33.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KcShakeKill.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcShakeKill.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcShakeKill.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcShakeKill.cs",
+              "RelativeToolTip": "AotForms\\KcShakeKill.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAApwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:55:07.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Kcupplayer.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Kcupplayer.cs",
+              "RelativeDocumentMoniker": "AotForms\\Kcupplayer.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Kcupplayer.cs",
+              "RelativeToolTip": "AotForms\\Kcupplayer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAApwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T12:52:08.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KcSafeSilnet.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcSafeSilnet.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcSafeSilnet.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcSafeSilnet.cs",
+              "RelativeToolTip": "AotForms\\KcSafeSilnet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:46:31.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Aimbot.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Aimbot.cs",
+              "RelativeDocumentMoniker": "AotForms\\Aimbot.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Aimbot.cs",
+              "RelativeToolTip": "AotForms\\Aimbot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:49:33.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KcBrutalSilnetAim.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcBrutalSilnetAim.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcBrutalSilnetAim.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KcBrutalSilnetAim.cs",
+              "RelativeToolTip": "AotForms\\KcBrutalSilnetAim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:43:11.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AimbotVisible.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\AimbotVisible.cs",
+              "RelativeDocumentMoniker": "AotForms\\AimbotVisible.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\AimbotVisible.cs",
+              "RelativeToolTip": "AotForms\\AimbotVisible.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T10:35:14.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Bones.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Bones.cs",
+              "RelativeDocumentMoniker": "AotForms\\Bones.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Bones.cs",
+              "RelativeToolTip": "AotForms\\Bones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T05:02:17.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KeyAuth.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KeyAuth.cs",
+              "RelativeDocumentMoniker": "AotForms\\KeyAuth.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\KeyAuth.cs",
+              "RelativeToolTip": "AotForms\\KeyAuth.cs",
+              "ViewState": "AgIAAAIDAAAAAAAAAIAwwCUDAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:38:25.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Lucide.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Lucide.cs",
+              "RelativeDocumentMoniker": "AotForms\\Lucide.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Lucide.cs",
+              "RelativeToolTip": "AotForms\\Lucide.cs",
+              "ViewState": "AgIAAFYFAAAAAAAAAAAMwHkFAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:07:17.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FormAh.resx",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.resx",
+              "RelativeDocumentMoniker": "AotForms\\FormAh.resx",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\FormAh.resx",
+              "RelativeToolTip": "AotForms\\FormAh.resx",
+              "ViewState": "AgIAAF8AAAAAAAAAAAASwHoAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-12T08:38:16.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Memory.cs",
+              "RelativeDocumentMoniker": "AotForms\\Memory.cs",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Memory.cs",
+              "RelativeToolTip": "AotForms\\Memory.cs",
+              "ViewState": "AgIAAH8BAAAAAAAAAAAEwJgBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:38:37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "AotForms\\Properties\\Resources.resx",
+              "ToolTip": "E:\\NEW UI MAKING OBB 51\\NEW BRUTAL SINET AIM KANISHK V2\\KC-  ELITE\\pixel C# IMGUI\\AotForms\\Properties\\Resources.resx",
+              "RelativeToolTip": "AotForms\\Properties\\Resources.resx",
+              "ViewState": "AgIAAFoAAAAAAAAAAAASwHUAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-06-12T08:38:40.552Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

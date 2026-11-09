@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="auth\wnetwrap.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_draw.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_widgets.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_tables.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_freetype.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\imgui_edited.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\backends\imgui_impl_win32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="Particulas.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Mem\memNzxxn.h" />
+    <ClInclude Include="Mem\Memory2.h" />
+    <ClInclude Include="Mem\MemoryF.h" />
+    <ClInclude Include="MemNxxzn\MemNxxzn.hpp" />
+    <ClInclude Include="ESP\ESP LINES\ADBZapi.hpp" />
+    <ClInclude Include="ESP\ESP LINES\bool3.h" />
+    <ClInclude Include="ESP\ESP LINES\Complementos.h" />
+    <ClInclude Include="ESP\ESP LINES\Offset.hpp" />
+    <ClInclude Include="ESP\ESP LINES\Process.hpp" />
+    <ClInclude Include="ESP\ESP LINES\Quaternion.hpp" />
+    <ClInclude Include="ESP\ESP LINES\Unity.hh" />
+    <ClInclude Include="ESP\ESP LINES\Vector2.hpp" />
+    <ClInclude Include="ESP\ESP LINES\Vector3.hpp" />
+    <ClInclude Include="ESP\MinHook\include\MinHook.h" />
+    <ClInclude Include="ESP\MinHook\src\buffer.h" />
+    <ClInclude Include="ESP\MinHook\src\trampoline.h" />
+    <ClInclude Include="ESP\MinHook\src\hde\hde32.h" />
+    <ClInclude Include="ESP\MinHook\src\hde\pstdint.h" />
+    <ClInclude Include="ESP\MinHook\src\hde\hde64.h" />
+    <ClInclude Include="ESP\MinHook\src\hde\table32.h" />
+    <ClInclude Include="ESP\MinHook\src\hde\table64.h" />
+    <ClInclude Include="FakeLag\AimLag.h" />
+    <ClInclude Include="FakeLag\FakeLag.h" />
+    <ClInclude Include="FakeLag\GhostLag.h" />
+    <ClInclude Include="FakeLag\windivert.h" />
+    <ClInclude Include="icons.h" />
+    <ClInclude Include="NotificationNew.h" />
+    <ClInclude Include="Vector3pro.h" />
+    <ClInclude Include="Mem\externalmem.h" />
+    <ClInclude Include="AuthDllKeyNEw\Header.h" />
+    <ClInclude Include="auth\auth.hpp" />
+    <ClInclude Include="auth\json.hpp" />
+    <ClInclude Include="auth\skStr.h" />
+    <ClInclude Include="auth\utils.hpp" />
+    <ClInclude Include="AuthDllKeyNEw\json.hpp" />
+    <ClInclude Include="AuthDllKeyNEw\skCrypter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MemNxxzn\MemNxxzn.cpp" />
+    <ClCompile Include="ESP\MinHook\src\buffer.c" />
+    <ClCompile Include="ESP\MinHook\src\hook.c" />
+    <ClCompile Include="ESP\MinHook\src\trampoline.c" />
+    <ClCompile Include="ESP\MinHook\src\hde\hde32.c" />
+    <ClCompile Include="ESP\MinHook\src\hde\hde64.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth\libcurl.lib" />
+    <Library Include="auth\library_x64.lib" />
+    <Library Include="FakeLag\WinDivert.lib" />
+  </ItemGroup>
+</Project>

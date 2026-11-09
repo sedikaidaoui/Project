@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{6d252445-5654-4777-a8a2-2d1844b2591e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines">
+      <UniqueIdentifier>{286ed598-c64f-4113-9844-ab2e425dcb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Aimbot">
+      <UniqueIdentifier>{8e5d6a7b-8c9d-4e1f-2a3b-4c5d6e7f8a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Data">
+      <UniqueIdentifier>{b2c3d4e5-f6a7-4b8c-9d0e-1f2a3b4c5d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Exploits">
+      <UniqueIdentifier>{c3d4e5f6-a7b8-4c9d-0e1f-2a3b4c5d6e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Exploits\Exploit">
+      <UniqueIdentifier>{d4e5f6a7-b8c9-4d0e-1f2a-3b4c5d6e7f8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Exploits\Others">
+      <UniqueIdentifier>{e5f6a7b8-c9d0-4e1f-2a3b-4c5d6e7f8a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Features">
+      <UniqueIdentifier>{f6a7b8c9-d0e1-4f2a-3b4c-5d6e7f8a9b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Features\Visuals">
+      <UniqueIdentifier>{b8c9d0e1-f2a3-4b4c-5d6e-7f8a9b0c1d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Math">
+      <UniqueIdentifier>{a1b2c3d4-e5f6-4a5b-8c7d-9e0f1a2b3c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Math\Vector">
+      <UniqueIdentifier>{c9d0e1f2-a3b4-4c5d-6e7f-8a9b0c1d2e3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EspLines\Memory">
+      <UniqueIdentifier>{d0e1f2a3-b4c5-4d6e-7f8a-9b0c1d2e3f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{e1f2a3b4-c5d6-4e7f-8a9b-0c1d2e3f4a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\DirectX">
+      <UniqueIdentifier>{f2a3b4c5-d6e7-4f8a-9b0c-1d2e3f4a5b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\DirectX\Include">
+      <UniqueIdentifier>{a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\DirectX\Lib">
+      <UniqueIdentifier>{b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\ImGui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\MinHook">
+      <UniqueIdentifier>{c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\MinHook\include">
+      <UniqueIdentifier>{4014bced-817e-48c7-a51a-2e9b17656f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\MinHook\src">
+      <UniqueIdentifier>{67c760ce-e840-401b-a0b7-77c51581c11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\MinHook\src\hde">
+      <UniqueIdentifier>{512c00b0-a7be-4fca-8e56-e8d627ed0af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imagens">
+      <UniqueIdentifier>{e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\adb">
+      <UniqueIdentifier>{a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Fonts">
+      <UniqueIdentifier>{b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Overlay">
+      <UniqueIdentifier>{c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ui">
+      <UniqueIdentifier>{d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Auth\auth.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\api.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth\json.hpp">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Aimbot\Aimbot.hpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Aimbot\RageAimbot.hpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Aimbot\SilentAim.hpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Memory\NashMem.hpp">
+      <Filter>EspLines\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Data\Data.hpp">
+      <Filter>EspLines\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Data\MemoryHack.hpp">
+      <Filter>EspLines\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\RankEsp.hpp">
+      <Filter>EspLines</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Player.h">
+      <Filter>EspLines</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\Matrix4v4.hpp">
+      <Filter>EspLines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\TMatrix.hpp">
+      <Filter>EspLines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\Vector\Vector4.hpp">
+      <Filter>EspLines\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\WordToScreen.hpp">
+      <Filter>EspLines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Memory\Memory.hpp">
+      <Filter>EspLines\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Offsets.hpp">
+      <Filter>EspLines</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\Quaternion.hpp">
+      <Filter>EspLines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\AimB.hpp">
+      <Filter>EspLines\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\Vector\Vector2.hpp">
+      <Filter>EspLines\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Math\Vector\Vector3.hpp">
+      <Filter>EspLines\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Features\Visuals\NameGun.h">
+      <Filter>EspLines\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="EspLines\Features\Visuals\Visual.hpp">
+      <Filter>EspLines\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imconfig.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imgui.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imgui_impl_dx11.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imgui_impl_win32.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imgui_internal.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imgui_stdlib.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imstb_rectpack.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imstb_textedit.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\ImGui\imstb_truetype.h">
+      <Filter>ext\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="FontAwesome.hpp">
+      <Filter>Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="FontAwesome6.hpp">
+      <Filter>Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Imagens\LogoBytes.hpp">
+      <Filter>Imagens</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.hpp">
+      <Filter>Imagens</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles\Particles.hpp">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adb\Adb.hpp">
+      <Filter>src\adb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adb\adb_utils.hpp">
+      <Filter>src\adb</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fonts\Fonts.hpp">
+      <Filter>src\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Globals.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Overlay\Overlay.hpp">
+      <Filter>src\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Overlay\Render.hpp">
+      <Filter>src\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\ui.hpp">
+      <Filter>src\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ext\DirectX\Include\audiodefs.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\comdecl.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D2D1.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D2D1Helper.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D2DBaseTypes.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D2Derr.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D10.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D10effect.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3d10misc.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3d10sdklayers.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D10shader.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D10_1.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D10_1shader.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D11.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D11SDKLayers.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3D11Shader.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3d9.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3d9caps.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3d9types.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3Dcommon.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3Dcompiler.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DCSX.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX10.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx10async.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX10core.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX10math.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX10mesh.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX10tex.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX11.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX11async.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX11core.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\D3DX11tex.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9anim.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9core.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9effect.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9math.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9mesh.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9shader.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9shape.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9tex.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\d3dx9xof.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\Dcommon.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dinput.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dinputd.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dsconf.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dsetup.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dsound.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\DWrite.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dxdiag.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\DxErr.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dxfile.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\DXGI.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\DXGIFormat.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\DXGIType.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\dxsdkver.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\gameux.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\PIXPlugin.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\rmxfguid.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\rmxftmpl.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\rpcsal.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\X3DAudio.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\xact3.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\xact3d3.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\xact3wb.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XAPO.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XAPOBase.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XAPOFX.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XAudio2.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XAudio2fx.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XDSP.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\XInput.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\xma2defs.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\DirectX\Include\xnamath.h">
+      <Filter>ext\DirectX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\include\MinHook.h">
+      <Filter>ext\MinHook\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\buffer.h">
+      <Filter>ext\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\hde\hde32.h">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\hde\hde64.h">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\hde\pstdint.h">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\hde\table32.h">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\hde\table64.h">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\MinHook\src\trampoline.h">
+      <Filter>ext\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fonts\FontAwesome.hpp">
+      <Filter>src\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Fonts\FontInter.hpp">
+      <Filter>src\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuChams\Chams.h" />
+    <ClInclude Include="MenuChams\Texture.h" />
+    <ClInclude Include="MenuChams\Vectors.h" />
+    <ClInclude Include="EspLines\Data\SilentAimLegit.hpp" />
+    <ClInclude Include="EspLines\Data\MovementExploits.hpp" />
+    <ClInclude Include="EspLines\MethodsAll\MethodsAll.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\EnemyPull360.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\MagnetEnemy.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\MagnetLite.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\BackJump.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\TelaParada.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\PullEnemy.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\EnemyDown.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\RapidFly.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\SpeedHack.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\Underground.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\DownPlayerInternal.hpp" />
+    <ClInclude Include="EspLines\Data\ForceAimFeatures.hpp" />
+    <ClInclude Include="EspLines\Aimbot\ExtremeAimbot.hpp" />
+    <ClInclude Include="EspLines\Aimbot\SilentMem.hpp" />
+    <ClInclude Include="src\adb\ProcessUtils.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\Invisible.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\SilentLite.hpp" />
+    <ClInclude Include="EspLines\Exploits\Exploit\FakeLagFreeze.hpp" />
+    <ClInclude Include="EspLines\Aimbot\SilentAimV2.hpp" />
+    <ClInclude Include="EspLines\RankIcons.hpp" />
+    <ClInclude Include="EspLines\RankIconsData.hpp" />
+    <ClInclude Include="EspLines\Features\Visuals\ArabicShape.hpp" />
+    <ClInclude Include="src\aimkill\AimKillLink.hpp" />
+    <ClInclude Include="src\Fonts\NoyhHeavy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EspLines\Aimbot\Aimbot.cpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Aimbot\RageAimbot.cpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Aimbot\SilentAim.cpp">
+      <Filter>EspLines\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Data\Data.cpp">
+      <Filter>EspLines\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Data\MemoryHack.cpp">
+      <Filter>EspLines\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Features\Visuals\NameGun.cpp">
+      <Filter>EspLines\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Features\Visuals\GameTimer.cpp">
+      <Filter>EspLines\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Features\Visuals\Visual.cpp">
+      <Filter>EspLines\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_draw.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_impl_dx11.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_impl_win32.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_stdlib.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_tables.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ImGui\imgui_widgets.cpp">
+      <Filter>ext\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\MinHook\src\buffer.c">
+      <Filter>ext\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\MinHook\src\hde\hde32.c">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\MinHook\src\hde\hde64.c">
+      <Filter>ext\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\MinHook\src\hook.c">
+      <Filter>ext\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\MinHook\src\trampoline.c">
+      <Filter>ext\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\adb\Adb.cpp">
+      <Filter>src\adb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adb\adb_utils.cpp">
+      <Filter>src\adb</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fonts\FontsTwo.hpp">
+      <Filter>src\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Fonts\Fonts.cpp">
+      <Filter>src\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Overlay\Overlay.cpp">
+      <Filter>src\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Overlay\Render.cpp">
+      <Filter>src\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\ui.cpp">
+      <Filter>src\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth\api.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="EspLines\Data\ForceAimFeatures.cpp" />
+    <ClCompile Include="EspLines\Data\MovementExploits.cpp" />
+    <ClCompile Include="EspLines\MethodsAll\MethodsAll.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\EnemyPull360.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\MagnetEnemy.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\MagnetLite.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\BackJump.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\TelaParada.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\PullEnemy.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\EnemyDown.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\RapidFly.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\SpeedHack.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\Underground.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\DownPlayerInternal.cpp" />
+    <ClCompile Include="MenuChams\LibreriaGlew\src\glew.c" />
+    <ClCompile Include="MenuChams\Texture.cpp" />
+    <ClCompile Include="EspLines\Aimbot\ExtremeAimbot.cpp" />
+    <ClCompile Include="EspLines\Aimbot\SilentMem.cpp" />
+    <ClCompile Include="src\adb\ProcessUtils.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\Invisible.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\SilentLite.cpp" />
+    <ClCompile Include="EspLines\Exploits\Exploit\FakeLagFreeze.cpp" />
+    <ClCompile Include="EspLines\Aimbot\SilentAimV2.cpp" />
+    <ClCompile Include="src\CmdServer\CmdServer.cpp" />
+    <ClCompile Include="src\aimkill\AimKillLink.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ext\DirectX\Include\D3DX10math.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\d3dx9math.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\xnamathconvert.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\xnamathmatrix.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\xnamathmisc.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+    <None Include="ext\DirectX\Include\xnamathvector.inl">
+      <Filter>ext\DirectX\Include</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ext\DirectX\Lib\d2d1.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3d10.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3d10_1.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3d11.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3d9.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dcompiler.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\D3DCSX.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\D3DCSXd.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx10.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx10d.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx11.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx11d.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx9.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dx9d.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\d3dxof.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\dinput8.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\dsound.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\dwrite.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\DxErr.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\dxgi.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\dxguid.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\X3DAudio.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\xapobase.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\xapobased.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\XAPOFX.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="ext\DirectX\Lib\XInput.lib">
+      <Filter>ext\DirectX\Lib</Filter>
+    </Library>
+    <Library Include="Auth\Curl\libcurl_a.lib">
+      <Filter>Auth</Filter>
+    </Library>
+    <Library Include="Auth\Curl\libcurl_a_debug.lib">
+      <Filter>Auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

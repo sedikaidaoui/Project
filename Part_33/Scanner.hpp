@@ -1,0 +1,1 @@
+// Deprecated - Replaced by adb_utils.cpp direct memory scanner matching no-adb project.

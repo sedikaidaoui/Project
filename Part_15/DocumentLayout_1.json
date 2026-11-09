@@ -1,0 +1,568 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ishan\\Downloads\\imguimax\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\bootstrapruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\bootstrapruntime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\esp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\clothingcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\clothingcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\bool3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\bool3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\bones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\bones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\memory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ishan\\Downloads\\aimbotvisible\\AotForms\\Offsets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcspawnkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcspawnkill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcforceaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcforceaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcmagnetpull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcmagnetpull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcspinbotv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcspinbotv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcspinbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcspinbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\aimbotvisible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\aimbotvisible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kc no gravity fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kc no gravity fly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcupplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcupplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcenemypullv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcenemypullv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcmarkteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcmarkteleport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcclimbup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcclimbup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\keyauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\keyauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcsafesilnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcsafesilnet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\downplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\downplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcshakekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcshakekill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\adb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\adb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\lucide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\lucide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|c:\\users\\ishan\\downloads\\imguimax\\aotforms\\kcenemypull 360.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEE623EA-3B10-49EF-897D-36E0FAEFFB2C}|AotForms\\KanishkCheat.csproj|solutionrelative:aotforms\\kcenemypull 360.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClothingCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\ClothingCatalog.cs",
+              "RelativeDocumentMoniker": "AotForms\\ClothingCatalog.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\ClothingCatalog.cs",
+              "RelativeToolTip": "AotForms\\ClothingCatalog.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:27:45.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Memory.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Memory.cs",
+              "RelativeDocumentMoniker": "AotForms\\Memory.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Memory.cs",
+              "RelativeToolTip": "AotForms\\Memory.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA7wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:27:26.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bool3.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Bool3.cs",
+              "RelativeDocumentMoniker": "AotForms\\Bool3.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Bool3.cs",
+              "RelativeToolTip": "AotForms\\Bool3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T15:26:59.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KCMAGNETPULL.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCMAGNETPULL.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCMAGNETPULL.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCMAGNETPULL.cs",
+              "RelativeToolTip": "AotForms\\KCMAGNETPULL.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAawDsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:19:15.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "KCSPINBOTV2.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCSPINBOTV2.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCSPINBOTV2.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCSPINBOTV2.cs",
+              "RelativeToolTip": "AotForms\\KCSPINBOTV2.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wGIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:11:20.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "KcSpinBot.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcSpinBot.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcSpinBot.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcSpinBot.cs",
+              "RelativeToolTip": "AotForms\\KcSpinBot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:11:16.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bones.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Bones.cs",
+              "RelativeDocumentMoniker": "AotForms\\Bones.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Bones.cs",
+              "RelativeToolTip": "AotForms\\Bones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:23:31.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Offsets.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Offsets.cs",
+              "RelativeDocumentMoniker": "AotForms\\Offsets.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Offsets.cs",
+              "RelativeToolTip": "AotForms\\Offsets.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAqwFQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:27:33.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BootstrapRuntime.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\BootstrapRuntime.cs",
+              "RelativeDocumentMoniker": "AotForms\\BootstrapRuntime.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\BootstrapRuntime.cs",
+              "RelativeToolTip": "AotForms\\BootstrapRuntime.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T12:00:47.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Entity.cs",
+              "RelativeDocumentMoniker": "AotForms\\Entity.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Entity.cs",
+              "RelativeToolTip": "AotForms\\Entity.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:03:45.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ESP.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\ESP.cs",
+              "RelativeDocumentMoniker": "AotForms\\ESP.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\ESP.cs",
+              "RelativeToolTip": "AotForms\\ESP.cs",
+              "ViewState": "AgIAAAUIAAAAAAAAAAAAABEIAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T20:17:11.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KcForceAim.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcForceAim.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcForceAim.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcForceAim.cs",
+              "RelativeToolTip": "AotForms\\KcForceAim.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:19:44.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Data.cs",
+              "RelativeDocumentMoniker": "AotForms\\Data.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Data.cs",
+              "RelativeToolTip": "AotForms\\Data.cs",
+              "ViewState": "AgIAAK4BAAAAAAAAAAAawLgBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:39:23.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Config.cs",
+              "RelativeDocumentMoniker": "AotForms\\Config.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Config.cs",
+              "RelativeToolTip": "AotForms\\Config.cs",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAIwBsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:15:55.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Offsets.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\aimbotvisible\\AotForms\\Offsets.cs",
+              "RelativeDocumentMoniker": "..\\aimbotvisible\\AotForms\\Offsets.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\aimbotvisible\\AotForms\\Offsets.cs",
+              "RelativeToolTip": "..\\aimbotvisible\\AotForms\\Offsets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-18T15:48:35.164Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "KcTeleport.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcTeleport.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcTeleport.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcTeleport.cs",
+              "RelativeToolTip": "AotForms\\KcTeleport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:28:10.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KCSpawnkill.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCSpawnkill.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCSpawnkill.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCSpawnkill.cs",
+              "RelativeToolTip": "AotForms\\KCSpawnkill.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:28:31.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Transform.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Transform.cs",
+              "RelativeDocumentMoniker": "AotForms\\Transform.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Transform.cs",
+              "RelativeToolTip": "AotForms\\Transform.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:06:11.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Core.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Core.cs",
+              "RelativeDocumentMoniker": "AotForms\\Core.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Core.cs",
+              "RelativeToolTip": "AotForms\\Core.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:15:54.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AimbotVisible.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\AimbotVisible.cs",
+              "RelativeDocumentMoniker": "AotForms\\AimbotVisible.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\AimbotVisible.cs",
+              "RelativeToolTip": "AotForms\\AimbotVisible.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T09:56:35.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "KC NO GRAVITY FLY.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KC NO GRAVITY FLY.cs",
+              "RelativeDocumentMoniker": "AotForms\\KC NO GRAVITY FLY.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KC NO GRAVITY FLY.cs",
+              "RelativeToolTip": "AotForms\\KC NO GRAVITY FLY.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T11:53:01.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Kcupplayer.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Kcupplayer.cs",
+              "RelativeDocumentMoniker": "AotForms\\Kcupplayer.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Kcupplayer.cs",
+              "RelativeToolTip": "AotForms\\Kcupplayer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAFwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:39:38.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "KcEnemyPullV2.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcEnemyPullV2.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcEnemyPullV2.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcEnemyPullV2.cs",
+              "RelativeToolTip": "AotForms\\KcEnemyPullV2.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAlwLwAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T06:00:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "kcMarkTeleport.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\kcMarkTeleport.cs",
+              "RelativeDocumentMoniker": "AotForms\\kcMarkTeleport.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\kcMarkTeleport.cs",
+              "RelativeToolTip": "AotForms\\kcMarkTeleport.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAawEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T13:56:31.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KCClimbUp.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCClimbUp.cs",
+              "RelativeDocumentMoniker": "AotForms\\KCClimbUp.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KCClimbUp.cs",
+              "RelativeToolTip": "AotForms\\KCClimbUp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T07:06:27.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "KeyAuth.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KeyAuth.cs",
+              "RelativeDocumentMoniker": "AotForms\\KeyAuth.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KeyAuth.cs",
+              "RelativeToolTip": "AotForms\\KeyAuth.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAIBJwIoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-30T12:03:53.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "KcSafeSilnet.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcSafeSilnet.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcSafeSilnet.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcSafeSilnet.cs",
+              "RelativeToolTip": "AotForms\\KcSafeSilnet.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:03:27.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DownPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\DownPlayer.cs",
+              "RelativeDocumentMoniker": "AotForms\\DownPlayer.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\DownPlayer.cs",
+              "RelativeToolTip": "AotForms\\DownPlayer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAtwHYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T06:01:50.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KcShakeKill.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcShakeKill.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcShakeKill.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcShakeKill.cs",
+              "RelativeToolTip": "AotForms\\KcShakeKill.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwCYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T05:39:51.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Adb.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Adb.cs",
+              "RelativeDocumentMoniker": "AotForms\\Adb.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Adb.cs",
+              "RelativeToolTip": "AotForms\\Adb.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAADwv3cAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T16:29:15.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Lucide.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Lucide.cs",
+              "RelativeDocumentMoniker": "AotForms\\Lucide.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\Lucide.cs",
+              "RelativeToolTip": "AotForms\\Lucide.cs",
+              "ViewState": "AgIAAOYEAAAAAAAAAAAQwP4EAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:51:26.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "KcEnemyPull 360.cs",
+              "DocumentMoniker": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcEnemyPull 360.cs",
+              "RelativeDocumentMoniker": "AotForms\\KcEnemyPull 360.cs",
+              "ToolTip": "C:\\Users\\ishan\\Downloads\\imguimax\\AotForms\\KcEnemyPull 360.cs",
+              "RelativeToolTip": "AotForms\\KcEnemyPull 360.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv28AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T06:09:34.939Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

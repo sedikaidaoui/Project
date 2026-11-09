@@ -1,0 +1,4 @@
+#include "resource.h"
+
+// Cshell_Network is deployed as onedir folder "network" next to cshellvn.dll (see build_cshell_network.bat).
+// Do not embed PyInstaller one-file Cshell_Network.exe — it triggers VCRUNTIME140 extract errors on inject.

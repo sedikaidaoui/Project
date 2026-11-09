@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "53",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "254"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "278",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "479"
+                    }
+                },
+                {
+                    "source": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    }
+                },
+                {
+                    "source": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\res\\values\\ic_spectral_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "65",
+                        "endOffsets": "118"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endColumns": "65",
+                        "endOffsets": "223"
+                    }
+                },
+                {
+                    "source": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "49",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "228",
+                        "endColumns": "49",
+                        "endOffsets": "273"
+                    }
+                },
+                {
+                    "source": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endColumns": "56",
+                        "endOffsets": "157"
+                    }
+                }
+            ]
+        }
+    ]
+}

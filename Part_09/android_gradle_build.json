@@ -1,0 +1,171 @@
+{
+  "stringTable": {
+    "0": "C:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi21 --sysroot=C:/AndroidSdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DTERMINALX_MENU_EXPORTS -IC:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/src/main/jni -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -Wno-error=format-security -fvisibility=hidden -ffunction-sections -fdata-sections -w -fno-rtti -fno-exceptions -fpermissive -fms-extensions -std=gnu++1z",
+    "2": "--target=armv7-none-linux-androideabi21 --sysroot=C:/AndroidSdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DTERMINALX999_EXPORTS -IC:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/src/main/jni -IC:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/src/main/jni/AutoUpdate/xdl/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -Wno-error=format-security -fvisibility=hidden -ffunction-sections -fdata-sections -w -fno-rtti -fno-exceptions -fpermissive -fms-extensions -std=gnu++1z",
+    "3": "--target=armv7-none-linux-androideabi21 --sysroot=C:/AndroidSdk/ndk/30.0.16248370/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DTERMINALX999_EXPORTS -IC:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/src/main/jni -IC:/AIMKILL-RT MODE/AIMKILL-SC_OB55/AIMKILL_SC/SC_AIMKILL/app/src/main/jni/AutoUpdate/xdl/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -fno-limit-debug-info -fPIC -Wno-error=format-security -fvisibility=hidden -ffunction-sections -fdata-sections -w -fno-rtti -fno-exceptions -fpermissive -fms-extensions"
+  },
+  "buildFiles": [
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android.toolchain.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\abis.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\platforms.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\AndroidSdk\\ndk\\30.0.16248370\\build\\cmake\\compiler_id.cmake",
+    "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "TERMINALX_MENU-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" TERMINALX_MENU",
+      "buildType": "debug",
+      "toolchain": "419480188",
+      "abi": "armeabi-v7a",
+      "artifactName": "TERMINALX_MENU",
+      "files": [
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\client.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\SOCKET\\client.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Hack\\Namegun.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libTERMINALX_MENU.so",
+      "runtimeFiles": []
+    },
+    "TERMINALX999-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\AndroidSdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" TERMINALX999",
+      "buildType": "debug",
+      "toolchain": "419480188",
+      "abi": "armeabi-v7a",
+      "artifactName": "TERMINALX999",
+      "files": [
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\xdl\\xdl.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\xdl\\xdl_iterate.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\xdl\\xdl_linker.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\xdl\\xdl_util.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\xdl\\xdl_lzma.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Substrate\\hde64.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\backend.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Hack\\Namegun.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\AutoUpdate\\Il2Cpp.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\KittyArm64.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\KittyMemory.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\KittyScanner.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\KittyUtils.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\MemoryBackup.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\MemoryPatch.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\SOCKET\\server.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Substrate\\SubstrateDebug.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Substrate\\SubstrateHook.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Substrate\\SubstratePosixMemory.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libTERMINALX999.so",
+      "runtimeFiles": [
+        "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\Dobby\\libdobby.a",
+        "C:\\AIMKILL-RT MODE\\AIMKILL-SC_OB55\\AIMKILL_SC\\SC_AIMKILL\\app\\src\\main\\jni\\Tools\\KittyMemory\\Deps\\Keystone\\libs-android\\armeabi-v7a\\libkeystone.a"
+      ]
+    }
+  },
+  "toolchains": {
+    "419480188": {
+      "cCompilerExecutable": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\AndroidSdk\\ndk\\30.0.16248370\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
